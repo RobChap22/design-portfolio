@@ -2,17 +2,18 @@ body {
   height: 3000px;
   background: rgb(4,19,60);
   background: linear-gradient(0deg, rgba(4,19,60,1) 0%, rgba(30,51,116,1) 25%, rgba(42,101,172,1) 50%, rgba(81,195,193,1) 77%, rgba(152,255,245,1) 100%);
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Catamaran', sans-serif;
   font-size: 16px;
   text-align: center;
 }
 
 h1, h2, h3 {
-  font-family: 'Lexend Zetta', sans-serif;
+  font-family: 'Zilla Slab', serif;
+  color: rgba(4,19,60,1);
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 132px;
 }
 
 h2 {
@@ -20,7 +21,7 @@ h2 {
 }
 
 a {
-  font-family: 'Lexend Zetta', sans-serif;
+  font-family: 'Catamaran', sans-serif;
   color: #4c4c47;
   text-decoration: none;
   display: inline-block;
@@ -51,3 +52,8 @@ a:hover {
     width: 300px;
   }
 }
+
+/*BODY
+font-family: 'Catamaran', sans-serif;*/
+/*HEADERS
+font-family: 'Zilla Slab', serif;*/
