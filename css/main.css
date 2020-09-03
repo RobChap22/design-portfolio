@@ -1,50 +1,138 @@
 body {
-  height: 3000px;
+  /*height: 3000px;*/
   background: rgb(4,19,60);
   background: linear-gradient(0deg, rgba(4,19,60,1) 0%, rgba(30,51,116,1) 25%, rgba(42,101,172,1) 50%, rgba(81,195,193,1) 77%, rgba(152,255,245,1) 100%);
-  font-family: 'Merriweather', serif;
-  font-size: 16px;
-  text-align: center;
 }
 
 h1, h2, h3 {
   font-family: 'Lexend Peta', sans-serif;
   color: rgba(4,19,60,1);
-  border-color: rgba(4,19,60,1);
 }
-
 h1 {
   font-size: 132px;
 }
-
 h2 {
   font-size: 56px;
 }
-
-hr {
-  width: 50%;
-  background-color: rgba(4,19,60,1);
+p {
+  color: rgba(152,255,245,1);
+  font-family: 'Catamaran', sans-serif;
+  font-size: 18px;
+  text-shadow: 0px 0px 4px rgba(4,19,60,1);
 }
-
 a {
   font-family: 'Merriweather', serif;
   color: #4c4c47;
   text-decoration: none;
   display: inline-block;
 }
-
 a:hover {
   color: #272822;
   transition: 0.5s;
 }
 
+
+
 .hero-header {
+  text-align: center;
   height: 100vh;
   display: flex;
   /*flex-direction: column;*/
   align-items: center;
 }
+#hero-header-line {
+  width: 50%;
+  height: 2px;
+  background-color: rgba(4,19,60,1);
+}
 
+
+
+.about-me {
+  overflow: hidden;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25vh;
+}
+.about-me img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 300px;
+  margin-right: 60px;
+}
+
+
+
+.card-project {
+  overflow: hidden;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.card-project img {
+  /*height: 100%;*/
+  width: 600px;
+  border-radius: 6px;
+  /*width: 120px;*/
+  object-fit: cover;
+}
+.card-project h4 {
+  font-size: 32px;
+  color: rgba(152,255,245,1);
+  font-weight: 600;
+  font-family: 'Lexend Peta', sans-serif;
+}
+.card-project h5 {
+  font-size: 18px;
+  color: rgba(81,195,193,1);
+  font-weight: 600;
+  font-family: 'Lexend Peta', sans-serif;
+  padding-bottom: 16px;
+}
+.card-project p {
+  /*color: rgba(152,255,245,1);
+  font-size: 24px;*/
+  line-height: 1.4;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-project .card-project-infos {
+  padding: 16px;
+}
+
+
+
+
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
 
 
 @media (max-width: 960px) {
@@ -70,7 +158,7 @@ a:hover {
 /*HEADERS
 font-family: 'Lexend Peta', sans-serif;
 BODY
-font-family: 'Merriweather', serif;*/
+font-family: 'Catamaran', sans-serif;*/
 
 
 /*LIGHT TEAL
