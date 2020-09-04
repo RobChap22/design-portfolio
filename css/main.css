@@ -57,6 +57,16 @@ p {
   text-shadow: 0 0 2px rgba(42,101,172,0.5);
   font-size: 19px;
 }
+.about-me-links a {
+  color: rgba(4,19,60,0.5);
+  text-decoration: none;
+  font-size: 38px;
+  padding: 8px 25px;
+}
+.about-me-links a:hover {
+  color: rgba(4,19,60,1);
+}
+
 
 
 .project-line {
