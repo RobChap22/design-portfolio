@@ -198,8 +198,14 @@ p {
   }
   .about-me {
     display: block;
-    width: 400px;
+    width: 100%;
   }
+  .card-project {
+  /*overflow: hidden;*/
+  /*height: 50vh;*/
+  display: block;
+  align-items: center;
+}
 }
 
 
