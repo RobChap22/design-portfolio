@@ -1,3 +1,7 @@
+/** {
+  margin: 0;
+  padding: 0;
+}*/
 body {
   /*height: 3000px;*/
   background: rgb(4,19,60);
@@ -23,13 +27,15 @@ p {
 }
 
 
-
+.countainer {
+  width 100%;
+}
 
 .hero-header {
   text-align: center;
   height: 100vh;
   display: flex;
-  /*flex-direction: column;*/
+ /* flex-direction: column;*/
   align-items: center;
 }
 #hero-header-line {
@@ -41,7 +47,7 @@ p {
 
 
 .about-me {
-  overflow: hidden;
+  /*overflow: hidden;*/
   height: 50vh;
   display: flex;
   align-items: center;
@@ -79,8 +85,8 @@ p {
 
 
 .card-project {
-  overflow: hidden;
-  height: 50vh;
+  /*overflow: hidden;*/
+  /*height: 50vh;*/
   display: flex;
   align-items: center;
 }
@@ -93,6 +99,7 @@ p {
 }
 .card-project-info {
   width: 100%;
+  height: 100%;
   align-items: center;
   align-self: center;
   padding: 0 0 0 0;
